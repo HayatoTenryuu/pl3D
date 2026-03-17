@@ -1,45 +1,31 @@
-plOpenGL
+pl3D
 ========
-SWI-Prolog OpenGL Bindings
+SWI-Prolog to OpenGL Bindings. Maybe more one day.
 
 
-What is plOpenGL
+What is pl3D
 ----------------
-plOpenGL is an open source project that aims to develop a complete cross-platform SWI-Prolog binding for the OpenGL, GLU and GLUT libraries.
+pl3D is an open source project that aims to develop a complete cross-platform SWI-Prolog binding for the OpenGL, GLU and GLUT libraries.
+
+Note that this is a fork of plOpenGL by Jan Tathum. I hope to make it suitable for current use, but will only be reading over it / working on it in my free time occationally.
 
 
 Platforms
 ---------
-Windows, Mac OSX and Linux
+Windows, Mac OSX and Linux. Hopefully.
 
 
 Usage
 -----
-To use plOpenGL, add the following import modules and libraries to your script:
-
-:- use_foreign_library(foreign(plOpenGL)).
-
-:- use_module(library(plOpenGL)).
-
-:- use_module(library(plGL_defs)).
-
-:- use_module(library(plGLU_defs)).
-
-:- use_module(library(plGLUT_defs)).
-
-:- use_module(library(plGL)).
-
-:- use_module(library(plGLU)).
-
-:- use_module(library(plGLUT)).
+Currently you can't.
 
 
 Author
 ------
-Jan Tatham
+Hayato Tenryuu
 
 
 License
 -------
-plOpenGL is currently available under the GNU Lesser General Public License (LGPL) version 2.1.
+I don't know what to put here, so just don't use this code. If you do, you are liable for all your own issues.
 
